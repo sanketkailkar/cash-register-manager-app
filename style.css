@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --primary-color: #1192ce;
+}
+
+/* Container  */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 2rem 0rem 0rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+h1 {
+    margin: 0rem 0.5rem 1rem;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+p {
+    margin: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#error-message {
+    margin-bottom: 0rem;
+}
+
+.bill {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.hide-cash {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #000;
+}
+
+input {
+    width: 200px;
+    margin: 0.2rem auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    border: 2px solid var(--primary-color);
+    ;
+}
+
+/* Button  */
+button {
+    width: 100px;
+    margin: 0.5rem auto 0rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    color: #fff;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Table  */
+table {
+    font-size: large;
+    width: 60%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #fff;
+}
+
+table>caption {
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+th,
+td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* Footer  */
+footer {
+    text-align: center;
+    margin: 0.5rem auto 1rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ol li {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+ion-icon {
+    color: var(--primary-color);
+    font-size: x-large;
+}
+
+@media screen and (max-width: 800px) {
+    table {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    table {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    table {
+        width: 80%;
+    }
+}
